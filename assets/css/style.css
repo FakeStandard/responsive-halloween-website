@@ -216,6 +216,10 @@ button {
     top: 0;
 }
 
+.scroll-header {
+    background: var(--container-color);
+}
+
 .home-content {
     row-gap: 1rem;
 }
@@ -344,4 +348,28 @@ button {
     display: inline-flex;
     align-items: center;
     column-gap: 0.5rem;
+}
+
+.category-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 2rem;
+}
+
+.category-data {
+    text-align: center;
+}
+
+.category-img {
+    width: 120px;
+    margin-bottom: var(--mb-0-75);
+    transition: 0.3s;
+}
+
+.category-title {
+    margin-bottom: var(--mb-0-25);
+}
+
+.category-data:hover,
+.category-img {
+    transform: translateY(-0.5rem);
 }
