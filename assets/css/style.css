@@ -470,3 +470,84 @@ button {
     width: 200px;
     justify-self: center;
 }
+
+.new-container {
+    padding-top: 1rem;
+}
+
+.new-img {
+    width: 120px;
+    margin-bottom: var(--mb-0-5);
+    transition: 0.3s;
+}
+
+.new-content {
+    position: relative;
+    background: var(--container-color);
+    width: 242px;
+    padding: 2rem 0 1.5rem 0;
+    border-radius: 0.75rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.new-tag {
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    background-color: var(--first-color);
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.new-title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.new-subtitle {
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-0-5);
+}
+
+.new-prices {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.new-price {
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+}
+
+.new-discount {
+    color: var(--first-color);
+    font-size: var(--smaller-font-size);
+    text-decoration: line-through;
+    font-weight: var(--font-medium);
+}
+
+.new-button {
+    display: inline-flex;
+    padding: 0.5rem;
+    border-radius: 0.25rem 0.25rem 0.75rem 0.25rem;
+    position: absolute;
+    bottom: 0;
+    right: -3rem;
+}
+
+.new-icon {
+    font-size: 1.25rem;
+}
+
+.new-content:hover .new-img {
+    transform: translateY(-0.5rem);
+}
+
+.new-content:hover .new-button {
+    right: 0;
+}
