@@ -449,3 +449,24 @@ button {
 .trick-content:hover .trick-button {
     right: 0;
 }
+
+.discount-container {
+    background: var(--container-color);
+    border-radius: 1rem;
+    padding: 2.5rem 0 1.5rem;
+    row-gap: 0.75rem;
+}
+
+.discount-data {
+    text-align: center;
+}
+
+.discount-title {
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-2);
+}
+
+.discount-img {
+    width: 200px;
+    justify-self: center;
+}
