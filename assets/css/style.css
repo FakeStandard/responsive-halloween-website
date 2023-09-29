@@ -390,3 +390,62 @@ button {
     width: 200px;
     justify-self: center;
 }
+
+.trick-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding-top: 1rem;
+}
+
+.trick-content {
+    position: relative;
+    background: var(--container-color);
+    border-radius: 1rem;
+    padding: 1.5rem 0 1rem 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.trick-img {
+    width: 90px;
+    transition: 0.3s;
+}
+
+.trick-subtitle,
+.trick-price {
+    display: block;
+}
+
+.trick-subtitle {
+    font-size: var(--smaller-font-size);
+    margin-bottom: var(--mb-0-5);
+}
+
+.trick-title,
+.trick-price {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    font-size: var(--normal-font-size);
+}
+
+.trick-button {
+    display: inline-flex;
+    padding: 0.5rem;
+    border-radius: 0.25rem 0.25rem 0.75rem 0.25rem;
+    position: absolute;
+    right: -3rem;
+    bottom: 0;
+}
+
+.trick-icon {
+    font-size: 1.25rem;
+    color: var(--title-color);
+}
+
+.trick-content:hover .trick-img {
+    transform: translateY(-0.5rem);
+}
+
+.trick-content:hover .trick-button {
+    right: 0;
+}
