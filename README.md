@@ -1,4 +1,4 @@
-# :ghost: Responsive Halloween Website
+# :ghost: Halloween Website
 
 - Responsive Website Modern Design
 - Using HTML, CSS & JavaScript
